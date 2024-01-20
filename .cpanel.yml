@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/aashkain/bascombridge
+    - /bin/cp -R images $DEPLOYPATH
